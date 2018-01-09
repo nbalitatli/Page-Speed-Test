@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Project>
+   <description>Mobil ve web hız ölçüm sonucu</description>
+   <name>Haberturk Page Speed</name>
+   <tag></tag>
+   <UUID>bd268b55-95f4-4318-a9ec-0901c6841308</UUID>
+   <pageLoadTimeout>30</pageLoadTimeout>
+</Project>
