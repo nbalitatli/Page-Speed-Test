@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Page Speed Results" time="41" tests="0" failures="1" errors="0">
+   <testsuite name="Page Speed Results" tests="0" failures="1" errors="0" time="41" timestamp="2018-01-11 13:51:06" hostname="nbalitatli - ACYHCBG543.cyh.local" id="Test Suites/Page Speed Results">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\nbalitatli\\Katalon Studio\\Haberturk Page Speed\\Reports\\Page Speed Results\\20180111_135104"/>
+         <property name="logFiles" value="C:\\Users\\nbalitatli\\Katalon Studio\\Haberturk Page Speed\\Reports\\Page Speed Results\\20180111_135104\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\nbalitatli\\Katalon Studio\\Haberturk Page Speed\\Reports\\Page Speed Results\\20180111_135104\\1515667906380.png"/>
+         <property name="hostName" value="nbalitatli - ACYHCBG543.cyh.local"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="5.2.0.1"/>
+         <property name="browser" value="Chrome 63.0.3239.108"/>
+         <property name="hostAddress" value="10.34.10.85"/>
+         <property name="sessionId" value="fb207453c5f8b659fd356f1087495f19"/>
+         <property name="seleniumVersion" value="3.7.1"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/URL analyze" classname="Test Cases/URL analyze" status="FAILED">
+         <failure type="FAILED" message="Unable to get text of object 'Object Repository/NeedsWorkResult' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/NeedsWorkResult' located by 'By.xpath: .//*[@class='result-group-title-card-score']' not found)"/>
+         <system-out><![CDATA[2018-01-11 13:51:06 - [TEST_CASE][FAILED] - Test Cases/URL analyze: Test Cases/URL analyze FAILED because (of) Unable to get text of object 'Object Repository/NeedsWorkResult' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/NeedsWorkResult' located by 'By.xpath: .//*[@class='result-group-title-card-score']' not found)
+
+2018-01-11 13:51:06 - [TEST_STEP][PASSED] - callTestCase: Call Test Case 'Test Cases/GoBrowser/URL' successfully
+
+2018-01-11 13:51:06 - [TEST_CASE][PASSED] - Test Cases/GoBrowser/URL: Test Cases/GoBrowser/URL
+
+2018-01-11 13:51:06 - [TEST_STEP][PASSED] - openBrowser: Browser is opened with url: 'https://developers.google.com/speed/pagespeed/insights/'
+
+2018-01-11 13:51:13 - [MESSAGE][PASSED] - Browser is opened with url: 'https://developers.google.com/speed/pagespeed/insights/'
+
+2018-01-11 13:51:13 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-01-11 13:51:13 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-11 13:51:13 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-11 13:51:13 - [TEST_STEP][PASSED] - maximizeWindow: Current window maximized
+
+2018-01-11 13:51:14 - [MESSAGE][PASSED] - Current window maximized
+
+2018-01-11 13:51:14 - [MESSAGE][PASSED] - Call Test Case 'Test Cases/GoBrowser/URL' successfully
+
+2018-01-11 13:51:14 - [TEST_STEP][PASSED] - sendKeys: Keys 'http://www.haberturk.com/' sent to object: 'Object Repository/URL'
+
+2018-01-11 13:51:15 - [MESSAGE][PASSED] - Keys 'http://www.haberturk.com/' sent to object: 'Object Repository/URL'
+
+2018-01-11 13:51:15 - [TEST_STEP][PASSED] - click: Object: 'Object Repository/buttonAnalyze' is clicked on
+
+2018-01-11 13:51:15 - [MESSAGE][PASSED] - Object: 'Object Repository/buttonAnalyze' is clicked on
+
+2018-01-11 13:51:15 - [TEST_STEP][PASSED] - waitForPageLoad: Wait for page load successfully
+
+2018-01-11 13:51:15 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2018-01-11 13:51:15 - [MESSAGE][PASSED] - Wait for page load successfully
+
+2018-01-11 13:51:15 - [TEST_STEP][FAILED] - getText: Unable to get text of object 'Object Repository/NeedsWorkResult' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/NeedsWorkResult' located by 'By.xpath: .//*[@class='result-group-title-card-score']' not found)
+
+2018-01-11 13:51:46 - [MESSAGE][FAILED] - Unable to get text of object 'Object Repository/NeedsWorkResult' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/NeedsWorkResult' located by 'By.xpath: .//*[@class='result-group-title-card-score']' not found)
+[[ATTACHMENT|C:\\Users\\nbalitatli\\Katalon Studio\\Haberturk Page Speed\\Reports\\Page Speed Results\\20180111_135104\\1515667906380.png]]]]></system-out>
+         <system-err><![CDATA[2018-01-11 13:51:06 - [TEST_CASE][FAILED] - Test Cases/URL analyze: Test Cases/URL analyze FAILED because (of) Unable to get text of object 'Object Repository/NeedsWorkResult' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/NeedsWorkResult' located by 'By.xpath: .//*[@class='result-group-title-card-score']' not found)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2018-01-11 13:51:06 - [TEST_SUITE][FAILED] - Page Speed Results: Test Cases/URL analyze FAILED because (of) Unable to get text of object 'Object Repository/NeedsWorkResult' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/NeedsWorkResult' located by 'By.xpath: .//*[@class='result-group-title-card-score']' not found)]]></system-out>
+      <system-err><![CDATA[2018-01-11 13:51:06 - [TEST_SUITE][FAILED] - Page Speed Results: Test Cases/URL analyze FAILED because (of) Unable to get text of object 'Object Repository/NeedsWorkResult' (Root cause: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/NeedsWorkResult' located by 'By.xpath: .//*[@class='result-group-title-card-score']' not found)]]></system-err>
+   </testsuite>
+</testsuites>
